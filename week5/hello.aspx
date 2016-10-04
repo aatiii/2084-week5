@@ -7,8 +7,10 @@
         <div>
             <asp:label id="lblMessage" runat="server" CssClass="alert alert-info" Visible="false"></asp:label>
         </div>
-
         <asp:TextBox ID="txtName" runat="server" placeholder="Enter your name" />
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
+            ErrorMessage="Required" ControlToValidate="txtName" CssClass="alert-danger">
+        </asp:RequiredFieldValidator>
 
         <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="btn btn-success" OnClick="btnSubmit_Click" />
 </asp:Content>

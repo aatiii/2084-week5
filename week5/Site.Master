@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>comp2084 - lesson4</title> 
+    <title>comp2084 - lesson5</title> 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <!-- Latest compiled and minified CSS -->
@@ -25,7 +25,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="default.aspx">COMP2084 | Week 4</a>
+              <a class="navbar-brand" href="default.aspx">COMP2084 | Week 5</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
